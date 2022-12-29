@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e75c12;
+}
+
+h1{
+    color: #00ff;
+}
+
+#myform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+    background-color: #000fff;
+    color: #fff000;
+    margin-top: 5px;
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
